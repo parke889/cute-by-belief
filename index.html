@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contemporary Cute Club</title>
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+  <div class="sky-bg" id="skyBg">
+    <img src="asset/imgs/star.png" alt="star" class="star" />
+  </div>
+
+  <main class="page">
+    <header class="topbar">
+      <div class="brand">
+        <!-- <img
+          id="CCC symbol"
+          src="asset/imgs/ccc symbol.png"
+          alt="CCC symbol"
+        /> -->
+        <span><img src="asset/imgs/ccc logo.png" alt="CCC logo"></span>
+      </div>
+
+      <nav class="nav" aria-label="Main menu">
+        <a href="#">About</a>
+        <a href="#">Rules</a>
+        <a href="#">Activities</a>
+        <a href="#">Merch</a>
+        <a href="#">Join Us</a>
+      </nav>
+    </header>
+
+<section class="hero">
+  <div class="ccc-p5-wrap" aria-hidden="true">
+    <div id="cccSketch"></div>
+  </div>
+  <div class="object-grid" id="objectGrid"></div>
+</section>
+  </main>
+
+  <section class="modal" id="objectModal" aria-hidden="true">
+    <div class="modal-inner">
+      <div class="modal-top">
+        <div class="modal-top-left">
+          <span id="blessLabel">Bless Object</span>
+          <span class="info-wrap" aria-label="How to bless object">
+            i
+            <span class="tooltip">how to bless object</span>
+          </span>
+        </div>
+
+        <button class="close-btn" id="closeModalBtn" type="button">Close</button>
+      </div>
+
+      <div class="comments-layer" id="commentsLayer"></div>
+
+      <div class="modal-image-wrap">
+        <div class="image-bg" src="asset/imgs/star.png"></div>
+        <img class="modal-image" id="modalImage" src="" alt="Selected object" />
+      </div>
+
+      <div class="modal-bottom-left">
+        <h2 class="object-title" id="modalTitle">Duck</h2>
+        <p class="object-meta" id="modalMeta">by pangj<br />2026-02-25</p>
+
+      </div>
+
+      <form class="comment-form" id="commentForm">
+        <input
+          class="comment-input"
+          id="commentInput"
+          type="text"
+          maxlength="80"
+          placeholder="leave a comment on this object <3"
+          autocomplete="off"
+        />
+        <button class="send-btn" type="submit">send</button>
+
+      </form>
+    <div class="modal-bottom-right">
+  <p class="comment-count" id="commentCount">0 comments</p>
+</div>
+    </div>
+  </section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.3/p5.min.js"></script>
+<script src="p5-sketch.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
