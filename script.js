@@ -30,7 +30,7 @@ const objects = [
     x: 58,
     y: 5,
     w: 90,
-    defaults: ["best cap ever", "tiny forest friend", "so round"]
+    defaults: ["best cap ever", "tiny cutieee", "so round"]
   },
   {
     id: "bowl",
@@ -70,7 +70,7 @@ const objects = [
   },
   {
     id: "carrots",
-    title: "Carrots",
+    title: "Traffic Cone",
     creator: "pangj",
     date: "2026-02-21",
     image:
@@ -78,19 +78,19 @@ const objects = [
     x: 77,
     y: 28,
     w: 158,
-    defaults: ["cute final boss", "root vegetable icon"]
+    defaults: ["I want one on my shelf", "loveee", "so cute!!🧡", "cute cone", "✧˖°🧡☼⋆｡˚👷⊹₊", "⋆༺𓆩⚠️𓆪༻⋆", "♡🚧♡", "like this!"]
   },
   {
-    id: "succulent",
-    title: "Succulent",
-    creator: "pangj",
-    date: "2026-02-22",
+    id: "Roasted Chicken",
+    title: "Roasted Chicken",
+    creator: "young",
+    date: "2026-03-02",
     image:
       "./asset/imgs/cute chicken.png",
     x: 8,
     y: 32,
     w: 122,
-    defaults: ["precious baby", "this one understands me"]
+    defaults: ["🍗🧡", "it's crossing its legs 🩰🦢", "🍗✨shinyy✨🍗", "cute posture", "iconic", "love", "love", "🍗✨shinyy✨🍗", "🧡", "🍗🍗🍗🍗🍗🍗", "🫶🥹", "🍗🧡", "🥹", "🧡", "🐓.𖥔 ݁ ˖   ✦    ‧₊˚ ⋅", "🐓🐓🐓", "🧡", "🧡", "🧡", "🧡"]
   },
   {
     id: "broccoli",
