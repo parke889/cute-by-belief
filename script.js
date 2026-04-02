@@ -46,9 +46,9 @@ const objects = [
   },
   {
     id: "shell",
-    title: "Shell",
-    creator: "pangj",
-    date: "2026-02-20",
+    title: "Albino softshell turtle",
+    creator: "sterc",
+    date: "2/21/2026 21:05:14",
     image:
       "./asset/imgs/turtle.png",
     x: 37,
